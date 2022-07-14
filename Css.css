@@ -1,0 +1,344 @@
+
+#right{
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+    color:  rgb(72, 72, 72);
+    float:right;
+    width:52%;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 30px;
+    align-items: center;
+    position: relative;
+    justify-items: center;
+    justify-content: center;
+   
+}
+#title{
+        color: black;
+   
+}
+
+ul{
+   width: 350px;
+   padding: 10px;
+   margin: 0px;
+   border:1px solid rgb(168, 168, 168);
+   margin-left: 170px; 
+     cursor: pointer;
+        
+}
+
+#discont{
+    margin-top: -50px;
+    width: 80px;
+    background-color:azure ;
+    align-items: center;
+    text-align: center;        font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    position:relative;
+}
+
+#photo{
+     align-items: center;
+     text-align: center;
+}
+    
+.images-show{
+    float: left;
+    width: 42%;
+    padding-left: 15px;
+    padding-top: 15px;
+    overflow: hidden;
+    justify-content: space-evenly;   
+}
+
+    
+#button{
+    width: 80px;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 4em 4em 4em 4em;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 320px; 
+    margin-top: 20px;
+    cursor: pointer;
+}
+    
+#addbut{
+    font-weight:bold ;
+    color: white;
+    background-color: grey;
+    width: 250px;
+    height: 50px;
+    padding-top: 20px;
+    margin-left: 250px; 
+    margin-top: 25px;
+}
+
+#line{
+    margin-top: 0px;
+    padding-bottom: 40px;
+    color: rgb(179, 179, 179);
+    font-weight: bold;
+}
+    
+#on_prdct{
+    text-align: left;
+    padding-left: 100px;
+    font-weight: bold;
+    color: rgb(179, 179, 179);
+    text-decoration: underline;
+    text-decoration-color: grey ;  
+ }
+
+ #return{
+    text-align: right;
+    padding-right: 0px;
+    font-weight: bold;
+    color: rgb(179, 179, 179);   
+    text-decoration: underline ;
+    text-decoration-color: grey ;     
+    }
+
+#size{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#on_prdct{
+    text-align: left;
+    padding-left: 100px;
+    font-weight: bold;
+    color:  rgb(72, 72, 72);
+    text-decoration: underline;
+    text-decoration-color: grey ;   
+    }
+
+#return{
+    text-align: right;
+    padding-right: 0px;
+     font-weight: bold;
+    color:  rgb(72, 72, 72); 
+    text-decoration: underline ;
+    text-decoration-color: grey ;    
+}
+
+#size{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#tzfi{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#howto{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#number{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#box{
+    padding-right: 15px;
+    text-align: right;
+    background-color: rgb(230, 230, 230);
+    width: 450px;
+    height: 100px;
+    padding-top: 20px;
+    margin-left: 180px; 
+}
+
+#member{
+    font-weight: bold;
+    float: right;
+}
+#cardimg{
+    float: left;
+    margin-left: 230px;
+    margin-top: -100px;
+    padding-bottom: 80px;
+}
+
+#like{
+    width: 25px;
+    position: static;  
+}
+
+#help{
+    width:25px;
+    position: fixed;
+}
+
+#bad1{
+    overflow: hidden;
+    background-size: cover;
+     background-position: center;    
+}
+    
+#bad2{
+     background-position: center;
+     background-size: cover;
+    transition: 0.7s ease-in-out;    
+}
+
+#bad2:hover{
+    transform: scale(0.9) ;
+}
+
+#bad3{
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s ease-in-out;  
+}
+
+#bad3:hover{
+    transform: scale(0.9) ;
+}
+#pillow1{
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s ease-in-out; 
+}
+
+#pillow1:hover{
+    transform: scale(0.9) ;
+}
+
+#pillow2{
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s ease-in-out;  
+}
+
+#pillow2:hover{
+    transform: scale(0.9) ;
+}
+
+#pillow3{
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s ease-in-out;  
+}
+
+#pillow3:hover{
+    transform: scale(0.9) ;
+}
+
+#ulff{
+    color: rgb(198, 198, 198);
+    text-decoration: line-through;
+}
+
+#ulfif{
+    color: rgb(198, 198, 198);
+    text-decoration: line-through;
+}
+
+#like{
+    position: sticky;
+    margin-left: 360px;
+    margin-bottom: -70px;
+    cursor: pointer;
+}
+
+#share{
+    margin-bottom: -100px;
+    margin-left: -30px;
+    position: sticky;
+}
+
+.setRed{
+    background-color: red;
+}
+   
+    @media screen and (max-width:600px){
+    
+    #right{
+        float: none;   
+    }
+  
+        .images-show{
+         width: 500px;
+         height: 450px;
+        margin-left: 20px; 
+     }
+       
+        ul{
+        width: 350px;
+        display: flex;
+        position: relative;
+        margin-left: 100px;
+        text-align: center;
+    
+           
+        }
+        #discont{
+        margin-top: auto;
+        position: relative;
+        }
+        #like{
+        position: sticky;
+        margin-left: 420px;
+        margin-bottom: -70px;
+        cursor: pointer;
+        }
+        #share{
+        margin-bottom: -100px;
+        margin-left: -30px;
+        position: sticky;
+        cursor: pointer;
+         }
+
+        #addbut{
+        margin-left: 170px;
+        }
+
+        #button{
+        margin-left: 250px;
+        }
+       #box{
+        margin-top: 20px;
+        margin-left: 30px;
+       }
+
+       #cardimg{
+           margin-left: 70px;
+       }
+       
+       #bad23{
+        display: none;
+       }
+    
+       #pillow12{
+        display: none;
+       }
+       #pillow23{
+
+        display: none;
+       }
+       #bad1{
+       width:450px ;
+
+       }
+       #front{
+        padding-top: 80px;
+        padding-right: 100px;
+        float: right;
+       }
+   
+      #help{
+        margin-left: -30px;
+        cursor: pointer;
+        position: fixed;
+      }
+      .setRed{
+        background-color: red;
+    }
+    }
